@@ -1,4 +1,4 @@
-Introduction - Benchmark As A Service
+﻿Introduction - Benchmark As A Service
 =======================================
 
 This is a Loading Benchmark Service that test REST API and return the benchmark
@@ -29,35 +29,33 @@ API:
     loading benchmark test, and return an average time
 
     Output example:
-
-    errors: 0 //if any error
-    stats: { 
-    totalElapsed: 894,
-    main: { 
-        meter: { 
-        mean: 1240.6947890818858,
-        count: 1000,
-        currentRate: 1240.6947890818858,
-        '1MinuteRate': 0,
-        '5MinuteRate': 0,
-        '15MinuteRate': 0
+    {"errors": 0 //if any error
+    "stats": { 
+    "totalElapsed": 894,
+    "main": { 
+        "meter": { 
+        "mean": 1240.6947890818858,
+        "count": 1000,
+        "currentRate": 1240.6947890818858,
+        '1MinuteRate": 0,
+        '5MinuteRate": 0,
+        "15MinuteRate": 0
         },
-        histogram: { 
-        min: 4,
-        max: 89,
-        sum: 41603,
-        variance: 242.0954864864864,
-        mean: 41.603,
-        stddev: 15.55941793533699,
-        count: 1000,
-        median: 42,
-        p75: 50,
-        p95: 70.94999999999993,
-        p99: 81.99000000000001,
-        p999: 88.99900000000002
+        "histogram": { 
+        "min": 4,
+        "max": 89,
+        "sum": 41603,
+        "variance": 242.0954864864864,
+        "mean": 41.603,
+        "stddev": 15.55941793533699,
+        "count": 1000,
+        "median": 42,
+        "p75": 50,
+        "p95": 70.94999999999993,
+        "p99": 81.99000000000001,
+        "p999": 88.99900000000002
         }
-    }
-    }
+    }}}
 
     A couple key metrics to be aware of:
 
