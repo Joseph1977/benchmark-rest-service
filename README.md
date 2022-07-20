@@ -1,4 +1,4 @@
-﻿Introduction - Benchmark As A Service
+﻿Introduction - Benchmark As A Service (load benchmark test-SAAS)
 =======================================
 
 This is a Loading Benchmark Service that test REST API and return the benchmark
@@ -298,3 +298,6 @@ API:
 -   endStepTimer - used in afterHooks to end a timer previously started
     with startStepTimer and included in the stats displayed at the end of the
     run.
+
+
+Joseph Benraz
