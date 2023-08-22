@@ -179,7 +179,7 @@ For example:
 },
 "flow": [
   {
-    "post": "[http://localhost:3001/parse?\#{INDEX.0}](http://localhost:3001/parse?#%7BINDEX.0%7D)",
+    "post": "http://localhost:3001/parse?#{INDEX.0}",
     "json": {
       "runOptions": {
         "logtype": "TEST--\#{INDEX.0}",
