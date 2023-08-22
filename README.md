@@ -182,8 +182,8 @@ For example:
     "post": "http://localhost:3001/parse?#{INDEX.0}",
     "json": {
       "runOptions": {
-        "logtype": "TEST--\#{INDEX.0}",
-        "data":"ID:\#{INDEX.1} Log Details\\r\\n"
+        "logtype": "TEST--#{INDEX.0}",
+        "data":"ID:#{INDEX.1} Log Details\\r\\n"
       }
     }
   }
