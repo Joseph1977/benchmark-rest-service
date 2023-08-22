@@ -192,9 +192,9 @@ For example:
 
 ```
 
------------------------------------------------
-The #{INDEX.0} will be replaced by the first array in dynamicInputArrays 
-The #{INDEX.1} will be replaced by the second array in dynamicInputArrays
+
+- The #{INDEX.0} will be replaced by the first array in dynamicInputArrays 
+- The #{INDEX.1} will be replaced by the second array in dynamicInputArrays
 
 ```plaintext
 The service will receive:
